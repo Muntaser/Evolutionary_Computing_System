@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: ExpressionTreeFitnessTrainerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0 sec <<< FAILURE!
+ExpressionTreeFitnessTrainerTest.testFitnessValue()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at tree.ExpressionTreeFitnessTrainer.getFitness(ExpressionTreeFitnessTrainer.java:15)
+	at ExpressionTreeFitnessTrainerTest.testFitnessValue(ExpressionTreeFitnessTrainerTest.java:32)
+

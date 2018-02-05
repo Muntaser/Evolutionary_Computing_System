@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: ExpressionTreeFactoryTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+ExpressionTreeFactoryTest.testEvaluate()  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at tree.ExpressionTreeFactory.evaluate(ExpressionTreeFactory.java:89)
+	at ExpressionTreeFactoryTest.testEvaluate(ExpressionTreeFactoryTest.java:32)
+
+ExpressionTreeFactoryTest.testGetClonedExpressionTree()  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at tree.ExpressionTreeFactory.getClonedExpressionTree(ExpressionTreeFactory.java:111)
+	at ExpressionTreeFactoryTest.testGetClonedExpressionTree(ExpressionTreeFactoryTest.java:37)
+
